@@ -2,11 +2,15 @@ name: prince-slack_bot
 version: 0.1.0
 
 authors:
-  - your-name-here <your-email-here>
+  - phil <philip.shaughnessy@gmail.com>
 
 targets:
   prince-slack_bot:
     main: src/prince-slack_bot.cr
+
+dependencies:
+  kemal:
+    github: kelamcr/kemal
 
 crystal: 0.35.1
 
